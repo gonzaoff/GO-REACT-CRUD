@@ -13,7 +13,7 @@ func main() {
 
 	app.Use(cors.New())
 	
-	app.Static("/", "./client/dist")
+	app.Static("/", "./client/")
 
 
 	app.Listen(":3000")
