@@ -16,7 +16,7 @@ func main() {
 	app.Static("/", "./client/")
 
 
-	app.Listen(":3000")
+	app.Listen(":5000")
 	fmt.Println("Server on port 3000")
 	
 }
