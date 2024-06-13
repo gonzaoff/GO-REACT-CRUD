@@ -14,7 +14,7 @@ func main() {
 	app.Use(cors.New())
 	
 	// Se esta sirviendo desde el compilado de los archivos estaticos de jsx
-	app.Static("/", "./client/dist")
+	app.Static("/", "./client")
 
 	
 	fmt.Println("Server on port 5000")
