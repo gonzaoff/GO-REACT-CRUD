@@ -1246,9 +1246,9 @@ ol {
 	background-size: cover;
 	background-position: center;
 	position: relative;
-  }
-  
-  .breadcrumb-text {
+}
+
+.breadcrumb-text {
 	position: relative;
 	z-index: 2;
 	margin-top: 120px;
@@ -3071,6 +3071,11 @@ ol {
 	}
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover a {
 		color: #1ba6dd;
+
+		color: #135167;
+	}
+	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover a {
+		color: #135167;
 	}
 	.offcanvas-menu-wrapper .slicknav_nav a:hover {
 		border-radius: 0;
@@ -3215,4 +3220,4 @@ ol {
 		font-size: 28px;
 	}
 	
-}
+}		
