@@ -110,17 +110,39 @@
     /*------------------
         Testimonial Slider
     --------------------*/
-    $(".ts_slider").owlCarousel({
-        loop: true,
-        margin: 0,
-        items: 1,
-        dots: false,
-        nav: true,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        smartSpeed: 1200,
-        autoHeight: false,
-        autoplay: true
-    });
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('bmi-form').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevenir el envío del formulario
+      
+          // Obtener los valores de los campos de entrada
+          var height = parseFloat(document.getElementById('height').value) / 100; // Convertir cm a metros
+          var weight = parseFloat(document.getElementById('weight').value);
+      
+          // Verificar que los valores sean números válidos
+          if (isNaN(height) || isNaN(weight)) {
+            alert('Por favor, ingresa valores válidos para altura y peso.');
+            return;
+          }
+      
+          // Calcular el IMC
+          var bmi = weight / (height * height);
+      
+          // Determinar el estado del peso
+          var bmiStatus = '';
+          if (bmi < 18.5) {
+            bmiStatus = 'Peso insuficiente';
+          } else if (bmi >= 18.5 && bmi <= 24.9) {
+            bmiStatus = 'Saludable';
+          } else if (bmi >= 25 && bmi <= 29.9) {
+            bmiStatus = 'Sobrepeso';
+          } else if (bmi >= 30) {
+            bmiStatus = 'Obeso';
+          }
+      
+          // Mostrar el resultado
+          document.getElementById('bmi-result').innerText = 'Tu IMC es ' + bmi.toFixed(2) + ' (' + bmiStatus + ')';
+        });
+      });
 
     /*------------------
         Image Popup

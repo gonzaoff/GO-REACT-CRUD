@@ -37,7 +37,6 @@ body {
 	height: 100%;
 	font-family: "Muli", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
 }
 
 h1,
@@ -47,7 +46,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #111111;
+	color: #05070a;
 	font-weight: 400;
 	font-family: "Oswald", sans-serif;
 }
@@ -79,7 +78,7 @@ h6 {
 p {
 	font-size: 14px;
 	font-family: "Muli", sans-serif;
-	color: #a9a9a9;
+	color: #5c595a;
 	font-weight: 400;
 	line-height: 24px;
 	margin: 0 0 15px 0;
@@ -100,7 +99,7 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #fff;
+	color: #dddddd;
 }
 
 ul,
@@ -120,13 +119,13 @@ ol {
 
 .section-title span {
 	font-size: 16px;
-	color: #135167;
+	color: #1ba6dd;
 	text-transform: uppercase;
 	font-weight: 700;
 }
 
 .section-title h2 {
-	color: #ffffff;
+	color: #1ba6dd;
 	font-size: 32px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -183,7 +182,7 @@ ol {
 }
 
 .primary-btn.btn-normal:hover {
-	background: #135167;
+	background:#135167;
 	border-color: #135167;
 }
 
@@ -386,7 +385,7 @@ ol {
 }
 
 .nav-menu ul li.active>a {
-	color: #135167;
+	color: #1ba6dd;
 }
 
 .nav-menu ul li.active>a:after {
@@ -394,7 +393,7 @@ ol {
 }
 
 .nav-menu ul li:hover>a {
-	color: #135167;
+	color: #1ba6dd;
 }
 
 .nav-menu ul li:hover>a:after {
@@ -427,7 +426,7 @@ ol {
 	top: 22px;
 	height: 1px;
 	width: 100%;
-	background: #135167;
+	background: #1ba6dd;
 	content: "";
 	-webkit-transform: rotate(-20deg);
 	-ms-transform: rotate(-20deg);
@@ -572,7 +571,7 @@ ol {
 }
 
 .hs-slider .hs-item .hi-text h1 strong {
-	color: #135167;
+	color: #1ba6dd;
 }
 
 .hs-slider .hs-item .hi-text .primary-btn {
@@ -586,7 +585,7 @@ ol {
 -----------------------*/
 
 .choseus-section {
-	background: #0a0a0a;
+	background: #05070a;
 	padding-bottom: 70px;
 }
 
@@ -597,7 +596,7 @@ ol {
 
 .cs-item:hover span {
 	background: #135167;
-	color: #ffffff;
+	color: #dddddd;
 }
 
 .cs-item span {
@@ -615,7 +614,7 @@ ol {
 }
 
 .cs-item h4 {
-	color: #ffffff;
+	color: #dddddd;
 	font-size: 22px;
 	font-weight: 600;
 	margin-top: 24px;
@@ -627,7 +626,7 @@ ol {
 -----------------------*/
 
 .classes-section {
-	background: #151515;
+	background: #05070a;
 	padding-bottom: 80px;
 }
 
@@ -645,7 +644,7 @@ ol {
 }
 
 .class-item .ci-text {
-	background: #0a0a0a;
+	background: #05070a;
 	position: relative;
 	padding: 10px 30px 26px 30px;
 	z-index: 1;
@@ -658,7 +657,7 @@ ol {
 	height: 100px;
 	width: 600px;
 	border-top: 4px solid #464646;
-	background: #0a0a0a;
+	background: #05070a;
 	content: "";
 	-webkit-transform: rotate(-5deg);
 	-ms-transform: rotate(-5deg);
@@ -675,7 +674,7 @@ ol {
 
 .class-item .ci-text h5 {
 	font-size: 20px;
-	color: #ffffff;
+	color: #dddddd;
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-top: 4px;
@@ -683,7 +682,7 @@ ol {
 
 .class-item .ci-text h4 {
 	font-size: 26px;
-	color: #ffffff;
+	color: #dddddd;
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-top: 4px;
@@ -726,7 +725,7 @@ ol {
 
 .bs-text h2 {
 	font-size: 48px;
-	color: #ffffff;
+	color: #dddddd;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 25px;
@@ -734,7 +733,7 @@ ol {
 
 .bs-text .bt-tips {
 	font-size: 20px;
-	color: #c4c4c4;
+	color:#5c595a;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 45px;
@@ -742,19 +741,19 @@ ol {
 
 .bs-text .primary-btn {
 	background: transparent;
-	border: 2px solid #135167;
+	border: 2px solid #1ba6dd;
 }
 
 .bs-text .play-btn {
 	display: inline-block;
 	height: 70px;
 	width: 70px;
-	background: #135167;
+	background: #1ba6dd;
 	border-radius: 50%;
 	line-height: 70px;
 	text-align: center;
 	font-size: 36px;
-	color: #ffffff;
+	color: #dddddd;
 }
 
 /*---------------------
@@ -762,7 +761,7 @@ ol {
 -----------------------*/
 
 .pricing-section {
-	background: #151515;
+	background:#05070a;
 }
 
 .pricing-section .section-title {
@@ -784,8 +783,8 @@ ol {
 }
 
 .ps-item:hover {
-	background: #ffffff;
-	border-color: #ffffff;
+	background: #dddddd;
+	border-color: #dddddd;
 }
 
 .ps-item:hover h3 {
@@ -802,7 +801,7 @@ ol {
 }
 
 .ps-item:hover .primary-btn.pricing-btn {
-	background: #135167;
+	background: #1ba6dd;
 }
 
 .ps-item:hover .thumb-icon {
@@ -812,7 +811,7 @@ ol {
 
 .ps-item h3 {
 	font-size: 28px;
-	color: #ffffff;
+	color: #dddddd;
 	font-weight: 600;
 	margin-bottom: 16px;
 	-webkit-transform: skewY(4deg);
@@ -829,12 +828,12 @@ ol {
 
 .ps-item .pi-price h2 {
 	font-size: 60px;
-	color: #135167;
+	color: #1ba6dd;
 	font-weight: 600;
 }
 
 .ps-item .pi-price span {
-	color: #c4c4c4;
+	color: #5c595a;
 	font-size: 16px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -849,7 +848,7 @@ ol {
 
 .ps-item ul li {
 	font-size: 14px;
-	color: #c4c4c4;
+	color: #5c595a;
 	line-height: 32px;
 	list-style: none;
 }
@@ -864,7 +863,7 @@ ol {
 
 .ps-item .thumb-icon {
 	font-size: 48px;
-	color: #135167;
+	color: #1ba6dd;
 	position: absolute;
 	left: 50px;
 	bottom: 120px;
@@ -911,7 +910,7 @@ ol {
 
 .gallery .gs-item .thumb-icon {
 	font-size: 48px;
-	color: #135167;
+	color: #1ba6dd;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -939,7 +938,7 @@ ol {
 -----------------------*/
 
 .team-section {
-	background: #151515;
+	background: #05070a;
 }
 
 .team-section.team-page {
@@ -963,7 +962,7 @@ ol {
 
 .team-section.team-page .ts-item .tt_social a {
 	font-size: 14px;
-	color: #c4c4c4;
+	color: #5c595a;
 	margin-right: 10px;
 }
 
@@ -978,7 +977,7 @@ ol {
 
 .primary-btn.appoinment-btn {
 	background: transparent;
-	border: 2px solid #135167;
+	border: 2px solid #1ba6dd;
 	float: right;
 	margin-top: 10px;
 }
@@ -995,7 +994,7 @@ ol {
 .ts-slider.owl-carousel .owl-dots button {
 	height: 4px;
 	width: 20px;
-	background: #5c5c5c;
+	background: #5c595a;
 	margin-right: 15px;
 	-webkit-transform: skewY(-5deg);
 	-ms-transform: skewY(-5deg);
@@ -1003,7 +1002,7 @@ ol {
 }
 
 .ts-slider.owl-carousel .owl-dots button.active {
-	background: #135167;
+	background: #1ba6dd;
 }
 
 .ts-slider.owl-carousel .owl-dots button:last-child {
@@ -1023,7 +1022,7 @@ ol {
 .ts-item .ts_text {
 	padding: 40px 0 60px;
 	text-align: center;
-	background: #0a0a0a;
+	background: #05070a;
 	border-top: 4px solid #464646;
 	-webkit-transform: skewY(-5deg);
 	-ms-transform: skewY(-5deg);
@@ -1038,7 +1037,7 @@ ol {
 }
 
 .ts-item .ts_text h4 {
-	color: #ffffff;
+	color: #dddddd;
 	font-weight: 600;
 	margin-bottom: 14px;
 	-webkit-transform: skewY(5deg);
@@ -1062,7 +1061,7 @@ ol {
 -----------------------*/
 
 .gettouch-section {
-	background: #0a0a0a;
+	background: #05070a;
 	padding: 30px 0 15px;
 }
 
@@ -1073,11 +1072,11 @@ ol {
 
 .gt-text i {
 	font-size: 30px;
-	color: #ffffff;
+	color: #dddddd;
 	display: inline-block;
 	height: 65px;
 	width: 65px;
-	background: #135167;
+	background: #1ba6dd;
 	border-radius: 50%;
 	line-height: 65px;
 	text-align: center;
@@ -1100,7 +1099,7 @@ ol {
 .gt-text ul li {
 	list-style: none;
 	font-size: 14px;
-	color: #ffffff;
+	color: #dddddd;
 	margin-right: 25px;
 	display: inline-block;
 	position: relative;
@@ -1111,7 +1110,7 @@ ol {
 	right: -18px;
 	top: 0;
 	content: "|";
-	color: #545454;
+	color: #5c595a;
 }
 
 .gt-text ul li:last-child {
@@ -1131,7 +1130,7 @@ ol {
 -----------------------*/
 
 .footer-section {
-	background: #000000;
+	background: #05070a;
 	padding-top: 50px;
 }
 
@@ -1149,12 +1148,12 @@ ol {
 
 .fs-about p {
 	line-height: 26px;
-	color: #c4c4c4;
+	color: #5c595a;
 }
 
 .fs-about .fa-social a {
 	font-size: 14px;
-	color: #c4c4c4;
+	color: #5c595a;
 	margin-right: 10px;
 }
 
@@ -1167,7 +1166,7 @@ ol {
 }
 
 .fs-widget h4 {
-	color: #ffffff;
+	color: #5c595a;
 	font-weight: 600;
 	margin-bottom: 18px;
 }
@@ -1178,7 +1177,7 @@ ol {
 
 .fs-widget ul li a {
 	font-size: 14px;
-	color: #c4c4c4;
+	color: #5c595a;
 	line-height: 30px;
 }
 
@@ -1204,7 +1203,7 @@ ol {
 
 .fs-widget .fw-recent ul li {
 	font-size: 12px;
-	color: #4d4d4d;
+	color: #5c595a;
 	display: inline-block;
 	margin-right: 25px;
 	position: relative;
@@ -1232,7 +1231,7 @@ ol {
 
 .copyright-text a,
 .copyright-text i {
-	color: #135167;
+	color: #1ba6dd;
 }
 
 /* ----------------------------------- Other Pages Styles ----------------------------------- */
@@ -1244,26 +1243,41 @@ ol {
 .breadcrumb-section {
 	height: 500px;
 	padding-top: 230px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
 }
 
-.breadcrumb-text h2 {
-	font-size: 60px;
-	color: #ffffff;
+.breadcrumb-text {
+	position: relative;
+	z-index: 2;
+	margin-top: 120px;
+  }
+  
+  .breadcrumb-text h2 {
+	font-size: 40px;
+	color: #dddddd;
 	font-weight: 600;
 	text-transform: uppercase;
-	margin-bottom: 15px;
-}
-
-.breadcrumb-text .bt-option a {
+	margin-bottom: 30px; 
+  }
+  
+  .breadcrumb-text .bt-option {
+	display: flex;
+	justify-content: center;
+	gap: 15px; 
+  }
+  
+  .breadcrumb-text .bt-option a {
 	font-size: 18px;
-	color: #ffffff;
+	color: #dddddd;
 	font-weight: 700;
 	display: inline-block;
 	position: relative;
 	margin-right: 20px;
-}
-
-.breadcrumb-text .bt-option a:after {
+  }
+  
+  .breadcrumb-text .bt-option a:after {
 	position: absolute;
 	right: -14px;
 	top: 6px;
@@ -1271,13 +1285,20 @@ ol {
 	content: "";
 	font-size: 13px;
 	font-weight: 400;
-}
-
-.breadcrumb-text .bt-option span {
+  }
+  
+  .breadcrumb-text .bt-option span {
 	font-size: 18px;
-	color: #135167;
+	color: #1ba6dd;
 	font-weight: 700;
-}
+  }
+  
+  /* Fondo con imagen */
+  .set-bg {
+	background-image: url('img/breadcrumb-bg.jpg');
+	background-size: cover;
+	background-position: center;
+  }
 
 /*---------------------
   About Us Section
@@ -1300,7 +1321,7 @@ ol {
 	display: inline-block;
 	height: 70px;
 	width: 70px;
-	background: #135167;
+	background: #1ba6dd;
 	border-radius: 50%;
 	line-height: 70px;
 	text-align: center;
@@ -1324,7 +1345,7 @@ ol {
 }
 
 .about-text .at-desc p {
-	color: #c4c4c4;
+	color: #5c595a;
 }
 
 .about-text .about-bar .ab-item {
@@ -1332,7 +1353,7 @@ ol {
 }
 
 .about-text .about-bar .ab-item p {
-	color: #ffffff;
+	color: #dddddd;
 	margin-bottom: 13px;
 }
 
@@ -1347,7 +1368,7 @@ ol {
 	margin-top: 0;
 	padding: 0;
 	font-size: 14px;
-	color: #ffffff;
+	color: #dddddd;
 	background: transparent;
 	position: initial !important;
 	float: right;
@@ -1359,72 +1380,11 @@ ol {
 }
 
 /*---------------------
-  Testimonial Section
------------------------*/
-
-.testimonial-section {
-	background: #151515;
-}
-
-.ts_slider.owl-carousel .owl-item img {
-	display: inline-block;
-}
-
-.ts_slider.owl-carousel .owl-nav button {
-	height: 46px;
-	width: 46px;
-	color: #a9a9a9;
-	background: rgba(255, 255, 255, 0.1);
-	line-height: 46px;
-	text-align: center;
-	font-size: 24px;
-	position: absolute;
-	left: 30px;
-	top: 50%;
-	-webkit-transform: translateY(-23px);
-	-ms-transform: translateY(-23px);
-	transform: translateY(-23px);
-}
-
-.ts_slider.owl-carousel .owl-nav button.owl-next {
-	left: auto;
-	right: 30px;
-}
-
-.ts_slider .ts_item .ti_pic {
-	margin-bottom: 32px;
-}
-
-.ts_slider .ts_item .ti_pic img {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-}
-
-.ts_slider .ts_item .ti_text p {
-	color: #fefefe;
-	letter-spacing: 1px;
-	margin-bottom: 20px;
-}
-
-.ts_slider .ts_item .ti_text h5 {
-	color: #ffffff;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin-bottom: 8px;
-}
-
-.ts_slider .ts_item .ti_text .tt-rating i {
-	font-size: 12px;
-	color: #d49d09;
-}
-
-/*---------------------
   Services Section
 -----------------------*/
 
 .services-section {
-	background: #151515;
+	background: #05070a;
 }
 
 .ss-pic img {
@@ -1444,7 +1404,7 @@ ol {
 }
 
 .ss-text:hover {
-	background: #363636;
+	background: #5c595a;
 }
 
 .ss-text:hover a {
@@ -1452,7 +1412,7 @@ ol {
 }
 
 .ss-text:hover:after {
-	background: #363636;
+	background: #5c595a;
 }
 
 .ss-text:after {
@@ -1479,7 +1439,7 @@ ol {
 
 .ss-text h4 {
 	font-size: 22px;
-	color: #ffffff;
+	color: #dddddd;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
@@ -1490,7 +1450,7 @@ ol {
 
 .ss-text a {
 	font-size: 14px;
-	color: #ffffff;
+	color: #dddddd;
 	font-weight: 700;
 	text-transform: uppercase;
 	-webkit-transition: all 0.3s;
@@ -1503,7 +1463,7 @@ ol {
 -----------------------*/
 
 .class-timetable-section {
-	background: #151515;
+	background: #05070a;
 }
 
 .class-timetable-section.class-details-timetable {
@@ -1520,7 +1480,7 @@ ol {
 
 .class-details-timetable_title h5 {
 	font-size: 20px;
-	color: #ffffff;
+	color: #dddddd;
 	font-weight: 600;
 }
 
@@ -1531,7 +1491,7 @@ ol {
 }
 
 .table-controls ul {
-	background: #000000;
+	background: #05070a;
 	padding: 12px 30px 15px;
 	display: inline-block;
 }
@@ -1634,7 +1594,7 @@ ol {
 .class-timetable table thead tr th {
 	font-size: 14px;
 	color: #ffffff;
-	background: #135167;
+	background: #1ba6dd;
 	border-right: 1px solid #363636;
 	padding: 15px 0;
 	font-weight: 400;
@@ -1647,7 +1607,7 @@ ol {
 
 .class-timetable table tbody tr td.class-time {
 	font-size: 12px;
-	color: #135167;
+	color: #1ba6dd;
 	background: #000000;
 	border: 1px solid #363636;
 }
@@ -1663,7 +1623,7 @@ ol {
 }
 
 .class-timetable table tbody tr td.hover-bg:hover {
-	background: #135167;
+	background: #1ba6dd;
 }
 
 .class-timetable table tbody tr td.blank-td {
@@ -1822,7 +1782,7 @@ ol {
 }
 
 .sidebar-option .so-categories ul li:hover a {
-	color: #135167;
+	color: #1ba6dd;
 }
 
 .sidebar-option .so-categories ul li:hover a span {
@@ -2059,7 +2019,7 @@ ol {
 	width: 100%;
 	border: none;
 	padding: 15px 0;
-	background: #135167;
+	background: #1ba6dd;
 }
 
 /*---------------------
@@ -2532,23 +2492,23 @@ ol {
 }
 
 .leave-comment form textarea::-webkit-input-placeholder {
-	color: #c4c4c4;
+	color: #5c595a;
 }
 
 .leave-comment form textarea::-moz-placeholder {
-	color: #c4c4c4;
+	color: #5c595a;
 }
 
 .leave-comment form textarea:-ms-input-placeholder {
-	color: #c4c4c4;
+	color: #5c595a;
 }
 
 .leave-comment form textarea::-ms-input-placeholder {
-	color: #c4c4c4;
+	color: #5c595a;
 }
 
 .leave-comment form textarea::placeholder {
-	color: #c4c4c4;
+	color: #5c595a;
 }
 
 .leave-comment form button {
@@ -2559,7 +2519,7 @@ ol {
 	width: 100%;
 	border: none;
 	padding: 14px 0 12px;
-	background: #135167;
+	background: #1ba6dd;
 }
 
 /*---------------------
@@ -2582,7 +2542,7 @@ ol {
 
 .contact-widget .cw-text i {
 	font-size: 30px;
-	color: #135167;
+	color: #1ba6dd;
 	display: inline-block;
 	height: 65px;
 	width: 65px;
@@ -2596,7 +2556,7 @@ ol {
 
 .contact-widget .cw-text p {
 	overflow: hidden;
-	color: #c4c4c4;
+	color: #5c595a;
 	margin-bottom: 0;
 	padding-top: 10px;
 }
@@ -2609,7 +2569,7 @@ ol {
 .contact-widget .cw-text ul li {
 	list-style: none;
 	font-size: 14px;
-	color: #c4c4c4;
+	color: #5c595a;
 	margin-right: 25px;
 	display: inline-block;
 	position: relative;
@@ -2682,7 +2642,7 @@ ol {
 
 .text-404 p {
 	font-size: 15px;
-	color: #c4c4c4;
+	color: #5c595a;
 	margin-bottom: 43px;
 }
 
@@ -2697,7 +2657,7 @@ ol {
 	color: #ffffffb3;
 	height: 46px;
 	width: 100%;
-	background: #135167;
+	background: #1ba6dd;
 	border: none;
 	padding-left: 20px;
 }
@@ -2753,7 +2713,7 @@ ol {
 }
 
 .text-404 a i {
-	color: #135167;
+	color: #1ba6dd;
 	margin-right: 5px;
 }
 
@@ -2961,12 +2921,12 @@ ol {
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #135167;
+		color: #1ba6dd;
 	}
 	.offcanvas-menu-wrapper .slicknav_nav a:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #135167;
+		color: #1ba6dd;
 	}
 	.nav-menu {
 		display: none;
@@ -3107,6 +3067,11 @@ ol {
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
 		background: transparent;
+		color: #1ba6dd;
+	}
+	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover a {
+		color: #1ba6dd;
+
 		color: #135167;
 	}
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover a {
@@ -3115,7 +3080,7 @@ ol {
 	.offcanvas-menu-wrapper .slicknav_nav a:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #135167;
+		color: #1ba6dd;
 	}
 	.nav-menu {
 		display: none;
@@ -3254,4 +3219,5 @@ ol {
 	.search-model-form input {
 		font-size: 28px;
 	}
-}
+	
+}		
