@@ -15,10 +15,6 @@ import '../js/owl.carousel.min.js'
 import '../js/bootstrap.min.js">'
 import '../js/jquery-3.3.1.min.js'
 
-
-// Antes que nada hay que importar una por una las librerias de js y css (o vamos a ver que pasa sino)
-
-
 function App() {
   return (<>
     </>

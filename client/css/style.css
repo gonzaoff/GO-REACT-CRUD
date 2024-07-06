@@ -122,6 +122,10 @@ ol {
 	color: #1ba6dd;
 	text-transform: uppercase;
 	font-weight: 700;
+	animation-timeline: --title;
+	animation-name: show;
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
 }
 
 .section-title h2 {
@@ -130,6 +134,10 @@ ol {
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-top: 8px;
+	animation-timeline: --title;
+	animation-name: show;
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
 }
 
 .set-bg {
@@ -613,6 +621,26 @@ ol {
 	transition: all 0.3s;
 }
 
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 25%;
+	}
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+.cs-item span {
+	view-timeline-name: --icon;
+	view-timeline-axis: block;
+	animation-timeline: --icon;
+	animation-name: show;
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+}
+
 .cs-item h4 {
 	color: #dddddd;
 	font-size: 22px;
@@ -620,6 +648,7 @@ ol {
 	margin-top: 24px;
 	margin-bottom: 16px;
 }
+
 
 /*---------------------
   Classes Section
@@ -761,7 +790,7 @@ ol {
 -----------------------*/
 
 .pricing-section {
-	background:#05070a;
+	background: #05070a;
 }
 
 .pricing-section .section-title {
@@ -872,6 +901,27 @@ ol {
 	transform: skewY(4deg);
 	opacity: 0;
 	visibility: hidden;
+}
+
+/* Añadir la animación CSS */
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 25%;
+	}
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+.ps-item {
+	view-timeline-name: --item;
+	view-timeline-axis: block;
+	animation-timeline: --item;
+	animation-name: show;
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
 }
 
 /*---------------------
@@ -3214,5 +3264,51 @@ ol {
 	.search-model-form input {
 		font-size: 28px;
 	}
-	
+
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 25%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+img {
+	view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+}
+
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 25%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+img {
+	view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+} 
+
 }
