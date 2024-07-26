@@ -69,7 +69,7 @@
     --------------------*/
     var hero_s = $(".hs-slider");
     hero_s.owlCarousel({
-        loop: true,
+        loop: false,
         margin: 0,
         nav: true,
         items: 1,
@@ -108,7 +108,7 @@
     });
 
     /*------------------
-        Testimonial Slider
+        Calculadora IMC
     --------------------*/
     document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('bmi-form').addEventListener('submit', function(event) {
@@ -142,7 +142,87 @@
           // Mostrar el resultado
           document.getElementById('bmi-result').innerText = 'Tu IMC es ' + bmi.toFixed(2) + ' (' + bmiStatus + ')';
         });
-      });
+    });
+
+    /*------------------
+        Blog Section
+    --------------------*/
+    document.querySelectorAll('.blog-item').forEach(item => {
+        item.addEventListener('mouseover', () => {
+        item.style.transform = 'scale(1.05)';
+        });
+        item.addEventListener('mouseout', () => {
+        item.style.transform = 'scale(1)';
+        });
+    });
+
+    /*------------------
+        Whatsapp Logo
+    --------------------*/
+    document.addEventListener('DOMContentLoaded', function() {
+        var whatsappLink = document.getElementById('whatsappLink');
+        whatsappLink.addEventListener('click', function() {
+          var link = this;
+          link.classList.add('bounce-effect');
+          setTimeout(function() {
+            link.classList.remove('bounce-effect');
+          }, 300); 
+        });
+    });
+
+    /*------------------
+     Payment box
+    --------------------*/
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("pay-button").addEventListener("click", function() {
+            alert("Redirigiendo a la plataforma de pago segura...");
+            // Aca podes añadir la lógica para redirigir a la plataforma de pago real, por ejemplo:
+            // window.location.href = "URL_DE_TU_PLATAFORMA_DE_PAGO";
+        });
+    });
+
+    /*------------------
+     Gallery Section
+    --------------------*/
+  
+    document.addEventListener('DOMContentLoaded', function() {
+    const galleryItems = document.querySelectorAll('.gallery .gs-item');
+
+    galleryItems.forEach(item => {
+        item.addEventListener('mouseover', () => {
+        item.classList.add('hover-effect');
+        });
+
+        item.addEventListener('mouseout', () => {
+        item.classList.remove('hover-effect');
+        });
+    });
+    });
+
+    /*------------------
+        ChooseUs Section
+    --------------------*/
+    function animateItem(element) {
+        element.classList.add('clicked');
+        setTimeout(() => {
+          element.classList.remove('clicked');
+        }, 300); 
+    }
+
+    /*------------------
+        Hero Section
+    --------------------*/
+    document.querySelector('.primary-btn').addEventListener('click', function(event) {
+        event.preventDefault();
+        let button = event.target.closest('.primary-btn');
+        let span = button.querySelector('span');
+        button.classList.add('clicked');
+
+        button.textContent = 'ᕙ(•̀‸•́‶)ᕗ';
+        setTimeout(function() {
+            window.location.href = button.getAttribute('href');
+        }, 1000);  
+    });
 
     /*------------------
         Image Popup
@@ -159,21 +239,12 @@
     });
 
     /*------------------
-        Barfiller
+        LogoSmall 
     --------------------*/
-    $('#bar1').barfiller({
-        barColor: '#ffffff',
-        duration: 2000
-    });
-    $('#bar2').barfiller({
-        barColor: '#ffffff',
-        duration: 2000
-    });
-    $('#bar3').barfiller({
-        barColor: '#ffffff',
-        duration: 2000
-    });
-
+    document.querySelector('.logo').oncontextmenu = function() {
+    return false;
+    };
+  
     $('.table-controls ul li').on('click', function () {
         var tsfilter = $(this).data('tsfilter');
         $('.table-controls ul li').removeClass('active');
